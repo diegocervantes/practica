@@ -19,7 +19,7 @@ void no_repetitions(string c, int tam){
         i=z+1;
 
     }
-
+    cout<<c<<endl;
 
 
 
@@ -29,10 +29,10 @@ void no_repetitions(string c, int tam){
 }
 
 int main(){
-    int y = 5;
+    int y = 4;
     //cout<<"CUANTAS LETRAS TIENE TU CADENA?"<<endl;
     //cin>>y;
-    string palabra = "hohoh";
+    string palabra = "hoho";
     //cout<<"INGRESA LA CADENA"<<endl;
     //cin>>palabra;
     no_repetitions(palabra, y);
